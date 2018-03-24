@@ -4,7 +4,7 @@ import tweepy
 import time
 import json
 import random
-from config import consumer_key, consumer_secret,access_token,access_token_secret
+#from config import consumer_key, consumer_secret,access_token,access_token_secret
 
 # Twitter API Keys
 consumer_key = consumer_key
