@@ -4,13 +4,14 @@ import tweepy
 import time
 import json
 import random
+import os
 #from config import consumer_key, consumer_secret,access_token,access_token_secret
 
 # Twitter API Keys
-consumer_key = consumer_key
-consumer_secret = consumer_secret
-access_token = access_token
-access_token_secret = access_token_secret
+consumer_key = os.environ['consumer_key']
+consumer_secret = os_environ['consumer_secret']
+access_token = os_environ['access_token']
+access_token_secret = os.environ['access_token_secret']
 
 # Quotes to Tweet
 happy_quotes = [
